@@ -44,7 +44,7 @@ img {
     color: #630528;
 }
 hr {
-    width: 100%;
+    width: 95%;
     margin-top: 20px;
     border: none;
     border-top: 1px solid grey;
@@ -123,19 +123,19 @@ table{
     }
 
     img {
-        width: 100v; /* L'image prend toute la largeur */
-        height: auto; /* Ajuste la hauteur proportionnellement */
-        padding: 0;   /* Supprime le padding */
-        margin: 0;    /* Supprime le margin */
-        border-radius: 0; /* Supprime les coins arrondis */
+        width: 100v;  
+        height: auto; 
+        padding: 0;  
+        margin: 0;    
+        border-radius: 0; 
     }
 
     h1 {
-        font-size: 1.5em; /* Ajuster la taille de la police pour le titre */
+        font-size: 1.5em; 
     }
 
     h4 {
-        font-size: 1.2em; /* Ajuster la taille de la police pour les sous-titres */
+        font-size: 1.2em;  
     }
 
     .Preparation {
