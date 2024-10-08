@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #f0d9d9;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.content {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25%;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px; 
+    margin-bottom: 80px;  
+    padding: 20px; 
+    text-align: left;
+    font-family: "Afacad Flux", sans-serif;
+}
+h1{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 8px;
+    color: black;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 4px;
+    border-radius:25px;
+}
+.Preparation {
+    background-color: #faf3f3;
+    border: 2px  none; 
+    border-radius: 8px; 
+    margin: 20px  20px; 
+    padding-top: 10px;
+}
+.titer{
+    font-family: "Afacad Flux", sans-serif;
+    color: #630528;
+}
+hr {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid grey;
+}
+div h4 {
+    color: #8b4513;
+    padding-bottom: 8px;
+    font-weight: bold;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 15px;
+
+}
+p{
+    color: rgba(22, 22, 23, 0.5);
+}
+.Ingredients h4 {
+    padding-left: 10px;
+}
+ul li::marker {
+    color: #630528;
+    font-size: 0.75em;
+    font-weight: bolder;
+}
+div ul li {
+    margin-bottom: 5px;  
+    padding-left: 10px;
+    color: rgba(22, 22, 23, 0.5);
+}
+div ul li  strong {
+    color: black;
+}
+ 
+.table th {
+    color: #630528;
+}
+ol{
+    padding-left: 17px;
+}
+div ol li {
+    margin-bottom: 15px;  
+    padding-left: 15px; 
+    color: rgba(22, 22, 23, 0.5);
+}
+div ol li strong{
+    font-size: large;
+    color: black;
+}
+div ol li::marker {
+    color: #630528;
+    font-size: medium;
+    font-family:serif;
+    font-weight: bold;
+}
+.nutrition{
+    padding-left: 15px;
+    color: rgba(22, 22, 23, 0.5);
+}
+table{
+    color: rgba(22, 22, 23, 0.5);
+
+}
+ 
+@media (max-width: 600px) {
+    .content {
+        padding: 10px;
+        width: 100%; 
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0px;
+        background-color: #f0d9d9;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    img {
+        width: 100v; /* L'image prend toute la largeur */
+        height: auto; /* Ajuste la hauteur proportionnellement */
+        padding: 0;   /* Supprime le padding */
+        margin: 0;    /* Supprime le margin */
+        border-radius: 0; /* Supprime les coins arrondis */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Ajuster la taille de la police pour le titre */
+    }
+
+    h4 {
+        font-size: 1.2em; /* Ajuster la taille de la police pour les sous-titres */
+    }
+
+    .Preparation {
+        padding-left: 5px;
+        margin: 0px  0px; 
+        padding-top: 15px;
+    }
+    .Ingredients {
+        padding: auto;
+    }
+}
+
